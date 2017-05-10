@@ -223,9 +223,28 @@ fieldset[disabled] .form-group .form-control {
 }
 
 #signModal {
-  .card-title {
-    color: #fff;
-    font-family: $font-brand;
+
+  .modal-content {
+    max-width: 360px;
+    left: 20%;
+    border-radius: 15px !important;
+  }
+
+  h3 {
+
     font-weight: 400;
+    color: #9c28b0;
+  }
+
+  .purple {
+    background-color: #9c28b0;
+  }
+
+  .card-user .content {
+    min-height: auto !important;
+  }
+
+  a:hover {
+    color: #9c28b0;
   }
 }

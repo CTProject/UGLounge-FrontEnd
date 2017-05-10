@@ -190,10 +190,23 @@ fieldset[disabled] .form-group .form-control {
   text-transform: uppercase;
 }
 
-#signModal .card-title {
-  color: #fff;
-  font-family: "Righteous", cursive;
+#signModal .modal-content {
+  max-width: 360px;
+  left: 20%;
+  border-radius: 15px !important;
+}
+#signModal h3 {
   font-weight: 400;
+  color: #9c28b0;
+}
+#signModal .purple {
+  background-color: #9c28b0;
+}
+#signModal .card-user .content {
+  min-height: auto !important;
+}
+#signModal a:hover {
+  color: #9c28b0;
 }
 
 /*# sourceMappingURL=style.css.map */
